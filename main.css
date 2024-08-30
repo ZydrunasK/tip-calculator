@@ -1,0 +1,101 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(138, 170, 180, 0.781);
+}
+.flexRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 2rem;
+}
+.title {
+background-color: #4a7994;
+color: #e0fffa;
+padding: 10px 20px;
+border-radius: 1rem 1rem 0 0;
+}
+.calc {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px 10px;
+    border: 1px solid #426f728e;
+    background-color: whitesmoke;
+    color: #435661;
+    border-radius: 1rem 1rem;
+    box-shadow: 0 0 20px -5px #4e4e48;
+}
+.billDiv,
+.chooseTipDiv {
+    padding: 20px;
+    gap: 40px;
+    justify-content: space-between;
+}
+.billDiv input,
+select {
+    padding: 5px;
+    font-size: 1.5rem;
+    text-align: right;
+    outline: none;
+    border: none;
+    background-color: #4a7994;
+    color: #e0fffa;
+}
+button {
+    padding: 15px 30px;
+    font-size: 2rem;
+    border: 2px solid #668394;
+    color: #435661;
+    border-radius: 2rem;
+}
+button:hover {
+    background-color: #4a7994;
+    color: #e0fffa;
+    border-color: #e0fffa;
+}
+button:active {
+    background-color: #325468;
+    border-color: #e0fffa;
+}
+.result {
+    background-color: #4a7994;
+    color: whitesmoke;
+    align-items: flex-start;
+    padding: 20px 10px;
+    width: 85%;
+    border-radius: 1.5rem;
+
+}
+.tipDiv,
+.totalDiv {
+    width: 100%;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+hr {
+    border: 0;
+    background-color: #668394;
+    height: 1px;
+    width: 100%;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   
+    <section>
+
+        <div class="title">
+            <h1>Tip calculator</h2>
+        </div>
+
+        <div class="calc flexCol">
+            <div class="billDiv flexRow">
+                <label for="bill">Bill</label>
+                <input type="text" id="bill" >
+            </div>
+            
+            <div class="chooseTipDiv flexRow">
+                <label for="chooseTip">Rate sevice</label>
+                <select name="" id="chooseTip">
+                    <option value="20">excelent - 20%</option>
+                    <option value="15">great - 15%</option>
+                    <option value="10">good - 10%</option>
+                    <option value="5">decent - 5%</option>
+                    <option value="0">garbage - 0%</option>
+                </select>
+           </div>
+
+            
+
+            <button>Calculate</button>
+            
+            <hr>
+
+            <div class="result flexCol">
+                <div class="tipDiv">
+                    <p class="tip">Tip:</p>
+                    <p class="tipNum">0</p>
+                </div>
+                <div class="totalDiv">
+                    <p class="total">Total:</p>
+                    <p class="totalNum">0</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+<!--
+<select name="" id="">
+<option value="15">15%</option>
+<option value="10">good 10 %</option>
+</select>
+-->
